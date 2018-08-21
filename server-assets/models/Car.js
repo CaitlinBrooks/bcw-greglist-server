@@ -17,7 +17,9 @@ let schema = new Schema({
 })
 
 // What if I wanted to include a required image of the car?
-// image: Image,
+// image: Url,
 // required: true
+
+
 
 module.exports = mongoose.model('Car', schema)
