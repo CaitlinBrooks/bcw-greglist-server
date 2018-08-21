@@ -6,9 +6,13 @@ let schema = new Schema({
     type: String,
     required: true
   },
+  color: {
+    type: String,
+    required: true
+  },
   description: {
     type: String,
-    default: 'No description included'
+    default: "No description included"
   },
   price: {
     type: Number,
