@@ -12,7 +12,7 @@ server.use(bp.urlencoded({
 
 let carRoutes = require('./server-assets/routes/car-routes')
 
-server.use('api/car', carRoutes)
+server.use('/api/car', carRoutes)
 
 server.listen(port, () => {
   console.log('Running on Port:', port)
