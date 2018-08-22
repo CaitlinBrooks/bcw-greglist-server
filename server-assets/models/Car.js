@@ -2,7 +2,7 @@ let mongoose = require('mongoose')
 let Schema = mongoose.Schema
 
 let schema = new Schema({
-  name: {
+  make: {
     type: String,
     required: true
   },
@@ -20,7 +20,6 @@ let schema = new Schema({
   }
 })
 
-// What if I wanted to include a required image of the car?
 // image: Url,
 // required: true
 
